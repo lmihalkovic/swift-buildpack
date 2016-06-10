@@ -136,3 +136,8 @@ set-env LD_LIBRARY_PATH '$HOME/.swift-lib:$LIBRARY_PATH'
 status "List of files in the build dir: $BUILD_DIR/.swift-lib"
 find $BUILD_DIR/.swift-lib
 status "END"
+
+status "Let's get the size of $BUILD_DIR"
+cd $BUILD_DIR && du -sh *
+cd -
+status "END"
