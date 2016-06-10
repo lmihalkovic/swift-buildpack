@@ -133,6 +133,6 @@ PROFILE_PATH="$BUILD_DIR/.profile.d/swift.sh"
 set-env PATH '$HOME/.swift-bin:$PATH'
 set-env LD_LIBRARY_PATH '$HOME/.swift-lib:$LIBRARY_PATH'
 
-status "List of files in the build dir: $BUILD_DIR"
-find $BUILD_DIR
+status "List of files in the build dir: $BUILD_DIR/.swift-lib"
+find $BUILD_DIR/.swift-lib
 status "END"
