@@ -141,3 +141,8 @@ status "Let's get the size of $BUILD_DIR"
 cd $BUILD_DIR && du -sh *
 cd -
 status "END"
+
+status "Let's get the size of $CACHE_DIR"
+cd $CACHE_DIR && du -sh *
+cd -
+status "END"
