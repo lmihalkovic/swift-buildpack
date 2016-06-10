@@ -142,7 +142,9 @@ cd $CACHE_DIR && du -sh *
 cd -
 status "END"
 
-rm -rf $CACHE_DIR
+rm -rf $CACHE_DIR/clang*
+rm -rf $CACHE_DIR/swift*
+find $CACHE_DIR
 status "Are we good now?"
 
 # Setup application environment
