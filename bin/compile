@@ -147,7 +147,7 @@ status "END"
 #find $CACHE_DIR
 # For now, not caching anything since we don't have logic yet to take advantage of it...
 rm -rf $CACHE_DIR
-status "CAHCE_DIR cleaned..."
+status "CACHE_DIR cleaned..."
 
 # Setup application environment
 PROFILE_PATH="$BUILD_DIR/.profile.d/swift.sh"
